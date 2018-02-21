@@ -10,6 +10,9 @@
     <link rel="icon" type="image/icon" href="assets/images/tabicon.ico">
 
     <link rel="stylesheet" type="text/css" href="">
+
+
+
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
@@ -24,15 +27,24 @@
 </head>
 
 <body>
+    <!-- needed for home background -->
+    <style type="text/css">
+        .backg {
+            background-image: url('/assets/images/color.jpg');
+        }
+    </style>
+    <!-- style needed done -->
 
     <!-- Home Page: -->
-    <div id="index">
+    <div class="backg" id="index">
         <!-- Index starts here: -->
+
         <div class="container main">
             <div class="row home">
                 <!-- Left side of the home page wth picture: -->
                 <div id="index_left" class="col-md-6 left">
-                    <img class="img-responsive img-rabbit" src="assets/images/Courtney2.jpg">
+                    <!-- <img class="img-responsive img-rabbit" src="assets/images/Courtney2.jpg"> -->
+                    <img class="img-responsive img-rabbit" src="assets/images/Courtney.jpg">
 
                     <!-- Right side of the home page: -->
                 </div>
@@ -42,7 +54,9 @@
                         <h4>Courtney Seward</h4>
                     </div>
                     <p class="home-description">
-                        Hi. I'm Courtney. Welcome to my site! I am a Web developer from Memphis,TN. My passions are focused on design, development and creative thinking. I love that software development allows you to be creative and imaginative within a technical world.
+                        Hi. I'm Courtney, welcome to my site! I am a Web developer from Memphis,TN. My passions are focused on design, development
+                        and creative thinking. I love that software development allows you to be creative and imaginative
+                        within a technical world.
                     </p>
                     <div class="btn-group-vertical custom_btn animated slideinright">
                         <div id="about" class="btn btn-rabbit">About</div>
@@ -73,27 +87,39 @@
 
     <!-- Index begins here for the About page:-->
     <div id="about_scroll" class="pages">
-        <!-- about starts here  -->
-        <div class="container main">
-            <div class="row">
-                <div class="col-md-6 left" id="about_left">
-                    <img class="img-responsive img-rabbit" src="assets/images/Courtney.jpg">
-                </div>
-
-                <div class="col-md-6 right" id="about_right">
-                    <a href="#index" class="btn btn-rabbit back">
-                        <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
-                    <div id="watermark">
-                        <h2 class="page-title" text-center>About</h2>
-                        <div class="marker">a</div>
+        <div class="backg">
+            <!-- about starts here  -->
+            <div class="container main">
+                <div class="row">
+                    <div class="col-md-6 left" id="about_left">
+                        <!-- <img class="img-responsive img-rabbit" src="assets/images/Courtney.jpg"> -->
+                        <img class="img-responsive img-rabbit" src="assets/images/Courtney2.jpg">
                     </div>
-                    <p class='subtitle'>Hi, I am Courtney Seward. A freelance web designer, front-end developer and digital planner based in
-                        Nashville, TN .
-                    </p>
-                    <p class="info">With two bachelor degrees in English and Psychology my original intent upon graduation was to teach Literature. However, after college I realized this wasn't the vocational path I wished to continue exploring. It wasn’t until I attended a ‘Girl’s Who Code’ workshop on a whim this past Winter that I realized the opportunity and growth in the tech world. This workshop taught me and a handful of other beginners the very basics of code and as we began to dive into specifics I became fascinated by all the lines of code that lie behind what is presented to us on our computer screens every day.  I love that coding gives you the opportunity to be both creative, yet technical and challenges your ability to effectively problem solve. I chose to study and be an apprentice at Nashville Software School because of the challenge and great opportunity that being a Web Developer could contribute to my life through the education and assistance of this program.</p>
-                    <br>
-                    <br>
-                    <br>
+
+                    <div class="col-md-6 right" id="about_right">
+                        <a href="#index" class="btn btn-rabbit back">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
+                        <div id="watermark">
+                            <h2 class="page-title" text-center>About</h2>
+                            <div class="marker">a</div>
+                        </div>
+                        <p class='subtitle'>Hi, I am Courtney Seward. A freelance web designer, front-end developer and digital planner based
+                            in Nashville, TN .
+                        </p>
+                        <p class="info">With two bachelor degrees in English and Psychology my original intent upon graduation was to teach
+                            Literature. However, after college I realized this wasn't the vocational path I wished to continue
+                            exploring.It wasn’t until I attended a ‘Girl’s Who Code’ workshop on a whim this past Winter
+                            that I realized the opportunity and growth in the tech world. This workshop taught me and a handful
+                            of other beginners the very basics of code and as we began to dive into specifics I became fascinated
+                            by all the lines of code that lie behind what is presented to us on our computer screens every
+                            day. I love that coding gives you the opportunity to be both creative, yet technical and challenges
+                            your ability to effectively problem solve. I chose to study and be an apprentice at Nashville
+                            Software School because of the challenge and great opportunity that being a Web Developer could
+                            contribute to my life through the education and assistance of this program.</p>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,6 +129,7 @@
 
     <!-- Work and Projects Page: -->
     <div id="work_scroll" class="pages">
+            <div class="backg">
         <!-- Work starts here -->
         <div class="container main">
             <div class="row">
@@ -112,10 +139,10 @@
                             <img class="img-responsive img-rabbit" src="assets/images/work.jpg">
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-rabbit" src="assets/images/home.jpg">
+                            <!-- <img class="img-responsive img-rabbit" src="assets/images/home.jpg"> -->
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-rabbit" src="assets/images/contact.jpg">
+                            <!-- <img class="img-responsive img-rabbit" src="assets/images/contact.jpg"> -->
                         </div>
                     </div>
                 </div>
@@ -130,22 +157,124 @@
                     <p class='subtitle'>This is a selection of my web design and development work. I've been involve in many different types
                         of project.
                     </p>
-                    <p class="info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+
+                    <!-- Portfolio Grid from other style-->
+                    <section class="bg-light" id="portfolio">
+                        <div class="container">
+                            <!-- <div class="row"> -->
+                            <!-- <div class="col-lg-12 text-center"> -->
+                            <!-- <h2 class="section-heading text-uppercase">Portfolio</h2> -->
+                            <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                            <!-- </div> -->
+                            <!-- </div> -->
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 portfolio-item">
+                                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa fa-plus fa-3x"></i>
+                                            </div>
+                                        </div>
+                                        <!-- <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt=""> -->
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Threads</h4>
+                                        <p class="text-muted">NannyDO</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 portfolio-item">
+                                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa fa-plus fa-3x"></i>
+                                            </div>
+                                        </div>
+                                        <!-- <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt=""> -->
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Explore</h4>
+                                        <p class="text-muted">BackEnd Project</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 portfolio-item">
+                                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa fa-plus fa-3x"></i>
+                                            </div>
+                                        </div>
+                                        <!-- <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt=""> -->
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Finish</h4>
+                                        <p class="text-muted">Side Project</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 portfolio-item">
+                                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa fa-plus fa-3x"></i>
+                                            </div>
+                                        </div>
+                                        <!-- <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt=""> -->
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Lines</h4>
+                                        <p class="text-muted">Branding</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 portfolio-item">
+                                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa fa-plus fa-3x"></i>
+                                            </div>
+                                        </div>
+                                        <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Southwest</h4>
+                                        <p class="text-muted">Website Design</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 portfolio-item">
+                                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa fa-plus fa-3x"></i>
+                                            </div>
+                                        </div>
+                                        <!-- <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt=""> -->
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Window</h4>
+                                        <p class="text-muted">Photography</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- End profolio section -->
+                    <!-- <p class="info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
                         in some form, by injected humour, or randomised words which don't look even slightly believable.
                         If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
                         hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
                         chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of
                         over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum
                         which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected
-                        humour, or non-characteristic words etc.</p>
+                        humour, or non-characteristic words etc.</p> -->
                 </div>
             </div>
+        </div>
         </div>
     </div>
     <!-- Work ends here  -->
 
-
+<!-- Contact Section: -->
     <div id="contact_scroll" class="pages">
+        <div class="backg">
         <!-- Contact starts here -->
         <div class="container main">
             <div class="row">
@@ -178,6 +307,7 @@
                         <button type="submit" class="btn btn-rabbit submit">Send Message</button>
                     </form>
                 </div>
+            </div>
             </div>
         </div>
 
@@ -229,16 +359,16 @@
         </section> -->
         <!-- End contact from other page: -->
 
-<!-- Interests Page -->
-    <!-- Index begins here for the About page:-->
-    <div id="interests_scroll" class="pages">
+        <!-- Interests Page -->
+        <!-- Index begins here for the About page:-->
+        <div id="interests_scroll" class="pages">
             <!-- about starts here  -->
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6 left" id="interests_left">
                         <img class="img-responsive img-rabbit" src="assets/images/Courtney.jpg">
                     </div>
-    
+
                     <div class="col-md-6 right" id="interests_right">
                         <a href="#index" class="btn btn-rabbit back">
                             <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
@@ -246,29 +376,29 @@
                             <h2 class="page-title" text-center>Interests</h2>
                             <div class="marker">i</div>
                         </div>
-                        <p class='subtitle'>Hi, I am Courtney Seward. A freelance web designer, front-end developer and digital planner based in
-                            Nashville,TN .
+                        <p class='subtitle'>Hi, I am Courtney Seward. A freelance web designer, front-end developer and digital planner based
+                            in Nashville,TN .
                         </p>
                         <p class="info">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About ends here -->
-<!-- End Interests Page -->
+        <!-- End Interests Page -->
 
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>

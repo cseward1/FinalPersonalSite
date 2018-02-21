@@ -1,10 +1,10 @@
 body{
-	background-image:"ShabbyBlogsFancyFreeM.jpg";
 	font-family: "Crimson Text";
 }
 
 .main{
 	background: #fff;
+	
 }
 
 .home-description{
@@ -14,7 +14,8 @@ body{
 	font-size: 19px;
     padding-top: 15px;
     padding-bottom: 25px;
-    line-height: 29px;
+	line-height: 29px;
+	
 
 }
 
@@ -30,9 +31,9 @@ body{
 	}
 
 .social a:hover i{
-	color: #fff;
-	border-color: #1e184e;
-	background-color: #837dbbd8;
+	color: rgb(7, 6, 6);
+	border-color: #17382e;
+	background-color: #b1ecdbce;
 	}
 
 
@@ -86,7 +87,7 @@ body{
 .btn-rabbit:hover{
 	color: rgba(0, 0, 0, 0.87);
 	background-color: #7adee667;
-	border-color: #05023067;
+	border-color: #0f0f0f;
 }
 
 p{

@@ -1,21 +1,20 @@
 body{
+	background-color: #f9f9f9;
 	font-family: "Crimson Text";
 }
 
 .main{
 	background: #fff;
-	
 }
 
 .home-description{
 	/* font-style:; */
 	font-weight: 600;
-	font-family: "Crimson Text";
+	font-family: "Crimson";
 	font-size: 19px;
     padding-top: 15px;
     padding-bottom: 25px;
-	line-height: 29px;
-	
+    line-height: 29px;
 
 }
 
@@ -31,9 +30,9 @@ body{
 	}
 
 .social a:hover i{
-	color: rgb(7, 6, 6);
-	border-color: #17382e;
-	background-color: #b1ecdbce;
+	color: #fff;
+	border-color: #1e184e;
+	background-color: #837dbbd8;
 	}
 
 
@@ -87,7 +86,7 @@ body{
 .btn-rabbit:hover{
 	color: rgba(0, 0, 0, 0.87);
 	background-color: #7adee667;
-	border-color: #0f0f0f;
+	border-color: #063c4267;
 }
 
 p{

@@ -30,9 +30,9 @@ body{
 	}
 
 .social a:hover i{
-	color: #fff;
-	border-color: #1e184e;
-	background-color: #837dbbd8;
+	color: rgb(7, 6, 6);
+	border-color: #17382e;
+	background-color: #b1ecdbce;
 	}
 
 
@@ -86,7 +86,7 @@ body{
 .btn-rabbit:hover{
 	color: rgba(0, 0, 0, 0.87);
 	background-color: #7adee667;
-	border-color: #063c4267;
+	border-color: #0f0f0f;
 }
 
 p{
@@ -129,6 +129,10 @@ footer{
     display: block;
     clear: both;
     margin-top: 70px;	 
+}
+
+.home-description{
+	font-family: "Open+Sans+Condensed"
 }
 
 .back i{
@@ -321,4 +325,11 @@ footer{
 
 .slideInLeft {
 	padding-left: 0;
+}
+
+.tech{
+margin-bottom: 50px;
+border: solid;
+border-color: #8CC3C9;
+
 }

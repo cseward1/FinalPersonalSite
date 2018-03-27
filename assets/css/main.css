@@ -318,3 +318,7 @@ footer{
 .show{
 	display: block;
 }
+
+.slideInLeft {
+	padding-left: 0;
+}

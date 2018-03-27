@@ -107,7 +107,7 @@ p{
 	font-size: 12px;
 }
 
-.logo h4{
+.logo h2{
 	font-family: "Amatic SC";
 	font-size: 50px;
 }
@@ -332,4 +332,7 @@ margin-bottom: 50px;
 border: solid;
 border-color: #8CC3C9;
 
+}
+#techborder {
+	margin-top: 10px;
 }

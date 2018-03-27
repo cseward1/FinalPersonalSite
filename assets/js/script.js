@@ -1,10 +1,8 @@
-// js page to allow the page changes when an event listener is triggered:
 $( document ).ready(function() {
                 
                 $("#about_scroll").fadeOut();   
                 $("#work_scroll").fadeOut();
                 $("#contact_scroll").fadeOut();
-                $("#interests_scroll").fadeOut();
 
                 $("#about").click(function(){
                     $("#index").fadeOut();
@@ -31,12 +29,5 @@ $( document ).ready(function() {
                     $('#index_left').addClass('animated slideInLeft');
                     $('#index_right').addClass('animated slideInRight');
                     });
-                    
-                    $(".interests").click(function(){
-                        $("#index").fadeOut();
-                        $("#interests_scroll").fadeIn();
-                        $('#interests_left').addClass('animated slideInLeft');
-                        $('#interests_right').addClass('animated slideInRight');
-                        });
            
 		});

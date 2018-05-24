@@ -336,3 +336,27 @@ border-color: #8CC3C9;
 #techborder {
 	margin-top: 10px;
 }
+
+/* Syling for Pictures on the Creative Page */
+/* Create four equal columns that floats next to each other */
+.row {
+    box-sizing: border-box; 
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 31.81%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 11px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
